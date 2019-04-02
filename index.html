@@ -189,7 +189,7 @@
         // load face detection and face expression recognition models
         await changeFaceDetector(TINY_FACE_DETECTOR)
         //todo im
-        await faceapi.loadFaceExpressionModel('http://localhost:3000/')
+        await faceapi.loadFaceExpressionModel('/')
         changeInputSize(224)
 
         // try to access users webcam and stream the images
