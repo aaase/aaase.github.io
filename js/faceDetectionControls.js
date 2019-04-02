@@ -100,7 +100,7 @@ async function changeFaceDetector(detector) {
   $('#loader').show()
   if (!isFaceDetectionModelLoaded()) {
     //todo im
-    await getCurrentFaceDetectionNet().load('http://localhost:3000/')
+    await getCurrentFaceDetectionNet().load('/')
   }
 
   $(`#${detector}_controls`).show()
